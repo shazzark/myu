@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background: linear-gradient(to right, #fdbb2d ,#22c1c3 );
+}
+#grad1{
+    position: relative;
+    text-align: center;
+    left: 690px;
+    background-color:#4b5054 ;
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    overflow: hidden;
+    clip-path: polygon(50% 0%, 85% 25%,85% 75%,50% 100%,15% 75%,15% 25%);
+    z-index: 1;
+    padding: 20px;
+    transform: scale(0.8);
+}
+footer{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+#bio h2 {
+    text-align: center;
+}
+#bio p{
+    margin-top: 10px;
+}
